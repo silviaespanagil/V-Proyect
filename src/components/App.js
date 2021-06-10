@@ -6,7 +6,6 @@ function App() {
   return (
     <>
       <Header />
-      <Main />
     </>
     /*<div className="App">
       <div className="progress"></div>

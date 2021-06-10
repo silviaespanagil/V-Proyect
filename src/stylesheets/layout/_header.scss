@@ -1,0 +1,36 @@
+.bm {
+  &-burger {
+    &-button {
+      position: fixed;
+      width: 36px;
+      height: 30px;
+      left: 36px;
+      top: 36px;
+    }
+    &-bars {
+      background: $colorPink;
+      &-hover {
+        background: $colorYellow;
+      }
+    }
+  }
+  &-cross {
+    background: $colorYellow;
+    &-button {
+      height: 24px;
+      width: 24px;
+    }
+  }
+  &-menu {
+    background: $colorPink;
+    padding: 40px 25px 0;
+    font-size: 1.5rem;
+    &-wrap {
+      position: fixed;
+      height: 100%;
+    }
+  }
+  &-item {
+    display: inline-block;
+  }
+}
