@@ -1,10 +1,16 @@
+import Header from "./Header.js";
+import Main from "./Main.js";
 import "../stylesheets/App.scss";
 
 function App() {
   return (
-    <div className="App">
+    <>
+      <Header />
+      <Main />
+    </>
+    /*<div className="App">
       <div className="progress"></div>
-    </div>
+    </div>*/
   );
 }
 export default App;
