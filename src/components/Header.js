@@ -1,12 +1,15 @@
 import { slide as Menu } from "react-burger-menu";
-
+import HorizontalMenu from "./HorizontalMenu";
 const Header = () => {
   return (
-    <Menu width={280}>
-      <a className="menu__item" href="/">
-        Home
-      </a>
-    </Menu>
+    <>
+      <HorizontalMenu />
+      <Menu width={280}>
+        <a className="menu__item" href="/">
+          Home
+        </a>
+      </Menu>
+    </>
   );
 };
 

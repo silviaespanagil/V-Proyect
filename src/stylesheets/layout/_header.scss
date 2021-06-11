@@ -6,6 +6,9 @@
       height: 30px;
       left: 36px;
       top: 36px;
+      @include tablet() {
+        display: none;
+      }
     }
     &-bars {
       background: $colorPink;
@@ -32,5 +35,28 @@
   }
   &-item {
     display: inline-block;
+  }
+}
+
+.hMenu {
+  display: none;
+  height: 100px;
+  @include tablet() {
+    display: flex;
+    justify-content: space-between;
+    background-color: $colorYellow;
+  }
+  &__ul {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+  &__item {
+    padding: 25px 27px 25px 0;
+    color: $colorDarkGreen;
+    text-transform: uppercase;
+    font-weight: bold;
+  }
+  &__img {
   }
 }
