@@ -1,7 +1,7 @@
-import Hero from "./Hero.js";
+import Header from "./Header.js";
 
-function Main() {
-  <Hero />;
-}
+const Main = () => {
+  return <Header />;
+};
 
 export default Main;

@@ -67,5 +67,9 @@
   }
   &__img {
     padding-left: 25px;
+    height: 100px;
+    @include desktop() {
+      height: 130px;
+    }
   }
 }
