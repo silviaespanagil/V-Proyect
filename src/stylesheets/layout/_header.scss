@@ -46,6 +46,9 @@
     justify-content: space-between;
     background-color: $colorYellow;
   }
+  @include desktop() {
+    height: 130px;
+  }
   &__ul {
     display: flex;
     justify-content: flex-end;
@@ -56,7 +59,13 @@
     color: $colorDarkGreen;
     text-transform: uppercase;
     font-weight: bold;
+    cursor: pointer;
+    @include desktop() {
+      font-size: 1.3rem;
+      padding: 35px 37px 35px 0;
+    }
   }
   &__img {
+    padding-left: 25px;
   }
 }
