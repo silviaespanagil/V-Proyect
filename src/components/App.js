@@ -1,14 +1,39 @@
-import Header from './Header.js';
-import Footer from './Footer.js';
-import Main from './Main.js';
+//dependencies
+import {Route, Switch} from 'react-router-dom';
+//components
+import Header from './Header';
+import Footer from './Footer';
+
+import Main from './Main';
+import AboutUs from './AboutUs';
+import FavPlaces from './FavPlaces';
+import FormAddPlace from './FormAddPlace';
+//stylsheets
 import '../stylesheets/App.scss';
 
 function App() {
   return (
     <>
       <Header />
+
+      <Switch>
+        {/*HOME*/}
+        <Route exact path="/">
+          <Main />
+        </Route>
+        <Route path="/nosotras">
+          <AboutUs />
+        </Route>
+        <Route path="/favoritos">
+          <FavPlaces />
+        </Route>
+        <Route path="/recomendacion">
+          <FormAddPlace />
+        </Route>
+      </Switch>
       <Footer />
     </>
+
     /*<div className="App">
       <div className="progress"></div>
     </div>*/

@@ -2,8 +2,8 @@
   &-burger {
     &-button {
       position: fixed;
-      width: 36px;
-      height: 30px;
+      width: 26px;
+      height: 20px;
       left: 36px;
       top: 36px;
       @include tablet() {
@@ -67,5 +67,9 @@
   }
   &__img {
     padding-left: 25px;
+    height: 100px;
+    @include desktop() {
+      height: 130px;
+    }
   }
 }
