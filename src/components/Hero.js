@@ -1,4 +1,6 @@
+// import hero from '../images/hero.jpg';
+
 const Hero = () => {
-  return <p>Un hero chulito</p>;
+  return <div className="hero"></div>;
 };
 export default Hero;

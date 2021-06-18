@@ -2,16 +2,16 @@ import {Link} from 'react-router-dom';
 const Footer = () => {
   return (
     <footer className="footer">
-      <small>&copy; 2021 Sil&Nur</small>
+      <small className="footer__copy">&copy; 2021 Sil&Nur</small>
       <nav>
-        <ul>
-          <li>
+        <ul className="footer__ul">
+          <li className="footer__ul--li">
             <Link to="/aboutus">About us</Link>
           </li>
-          <li>
+          <li className="footer__ul--li">
             <Link to="/recomendacion">Agregar un sitio</Link>
           </li>
-          <li>
+          <li className="footer__ul--li">
             <Link to="/favoritos">Favoritos</Link>
           </li>
         </ul>

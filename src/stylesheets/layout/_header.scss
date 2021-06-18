@@ -44,24 +44,26 @@
   @include tablet() {
     display: flex;
     justify-content: space-between;
-    background-color: $colorYellow;
-  }
+  
+   }
+  
   @include desktop() {
     height: 130px;
   }
   &__ul {
     display: flex;
     justify-content: flex-end;
-    align-items: center;
   }
   &__item {
-    padding: 25px 27px 25px 0;
+
+    padding: 15px 27px 25px 0;
     color: $colorDarkGreen;
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
+    font-size: 12px;
+
     @include desktop() {
-      font-size: 1.3rem;
       padding: 35px 37px 35px 0;
     }
   }

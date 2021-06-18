@@ -1,5 +1,11 @@
+import Hero from './Hero';
+
 const Main = () => {
-  return <main classname="main">holi este es el main</main>;
+  return (
+    <main className="main">
+      <Hero />
+    </main>
+  );
 };
 
 export default Main;
