@@ -13,7 +13,7 @@
     &-bars {
       background: $colorPink;
       &-hover {
-        background: $colorYellow;
+        background: $colorMediumGreen;
       }
     }
   }
@@ -26,8 +26,13 @@
   }
   &-menu {
     background: $colorPink;
+    background-image: url("../../images/giphypig.gif");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-size: 350px;
     padding: 40px 25px 0;
     font-size: 1.5rem;
+
     &-wrap {
       position: fixed;
       height: 100%;
@@ -44,9 +49,8 @@
   @include tablet() {
     display: flex;
     justify-content: space-between;
-  
-   }
-  
+  }
+
   @include desktop() {
     height: 130px;
   }
@@ -55,7 +59,6 @@
     justify-content: flex-end;
   }
   &__item {
-
     padding: 15px 27px 25px 0;
     color: $colorDarkGreen;
     text-transform: uppercase;
@@ -68,8 +71,8 @@
     }
   }
   &__img {
-    padding-left: 25px;
-    height: 100px;
+    padding-left: 20px;
+    height: 85px;
     @include desktop() {
       height: 130px;
     }
