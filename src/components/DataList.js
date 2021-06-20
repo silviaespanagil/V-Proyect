@@ -1,9 +1,15 @@
-import PropTypes from "prop-types";
 //COMPONENTES
 import DataCard from "./DataCard.js";
 
 const DataList = () => {
-  return <DataCard />;
+  return (
+    <>
+      <h2 className="listResults">Tus resultados</h2>
+      <div className="cardList">
+        <DataCard />
+      </div>
+    </>
+  );
 };
 
 export default DataList;
