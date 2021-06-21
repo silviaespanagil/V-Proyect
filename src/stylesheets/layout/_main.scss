@@ -1,4 +1,5 @@
-.main {
+.us {
   @include tablet() {
+    height: 100vh;
   }
 }

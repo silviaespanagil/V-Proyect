@@ -1,4 +1,4 @@
 const FavPlaces = () => {
-  return <p>Lugares favoritos del usuario</p>;
+  return <p className="us">Lugares favoritos del usuario</p>;
 };
 export default FavPlaces;
