@@ -78,3 +78,16 @@
     }
   }
 }
+.hero {
+  height: 500px;
+  width: 100%;
+  background-image: url(../../images/hero-bg.png);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  @include tablet {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+  }
+}

@@ -1,5 +1,5 @@
-import { slide as Menu } from "react-burger-menu";
-import HorizontalMenu from "./HorizontalMenu";
+import {slide as Menu} from 'react-burger-menu';
+import HorizontalMenu from './HorizontalMenu';
 const Header = () => {
   return (
     <>
@@ -9,6 +9,7 @@ const Header = () => {
           Home
         </a>
       </Menu>
+      <div className="hero"></div>;
     </>
   );
 };
