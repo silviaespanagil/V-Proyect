@@ -68,12 +68,10 @@
     text-transform: uppercase;
     font-weight: bold;
     cursor: pointer;
-    font-size: 12px;
-    &:active {
-      color: $colorPink;
-    }
+    font-size: 0.95rem;
 
     @include desktop() {
+      font-size: 1rem;
       padding: 35px 37px 35px 0;
     }
   }
