@@ -1,4 +1,4 @@
-import {Link} from 'react-router-dom';
+import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer className="footer">
@@ -10,7 +10,7 @@ const Footer = () => {
         <form className="footer__form" action="" method="POST">
           <input className="footer__input" type="text" placeholder="E-mail" />
           <button className="footer__button">
-            <i class="footer__button--arrow fas fa-arrow-right"></i>
+            <i className="footer__button--arrow fas fa-arrow-right"></i>
           </button>
         </form>
         <nav>

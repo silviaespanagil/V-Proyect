@@ -60,6 +60,7 @@
   &__ul {
     display: flex;
     justify-content: flex-end;
+    align-items: center;
   }
   &__item {
     padding: 15px 27px 25px 0;
@@ -68,6 +69,9 @@
     font-weight: bold;
     cursor: pointer;
     font-size: 12px;
+    &:active {
+      color: $colorPink;
+    }
 
     @include desktop() {
       padding: 35px 37px 35px 0;

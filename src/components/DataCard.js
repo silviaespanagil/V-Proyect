@@ -7,7 +7,7 @@ const DataCard = (props) => {
         <div className="cards__type">
           <i className="fas fa-leaf fa-lg cards__type--icon" title="Vegano"></i>
           <i
-            class="fas fa-dog fa-lg cards__type--icon"
+            className="fas fa-dog fa-lg cards__type--icon"
             title="Animales bienvenidos"
           ></i>
         </div>
@@ -29,7 +29,7 @@ const DataCard = (props) => {
         <div className="cards__type">
           <i className="fas fa-leaf fa-lg cards__type--icon" title="Vegano"></i>
           <i
-            class="far fa-times-circle fa-lg cards__type--icon"
+            className="far fa-times-circle fa-lg cards__type--icon"
             title="No acepta animales"
           ></i>
         </div>
@@ -54,7 +54,7 @@ const DataCard = (props) => {
             title="Vegetariano"
           ></i>
           <i
-            class="fas fa-dog fa-lg cards__type--icon"
+            className="fas fa-dog fa-lg cards__type--icon"
             title="Animales bienvenidos"
           ></i>
         </div>
@@ -76,7 +76,7 @@ const DataCard = (props) => {
         <div className="cards__type">
           <i className="fas fa-leaf fa-lg cards__type--icon" title="Vegano"></i>
           <i
-            class="fas fa-dog fa-lg cards__type--icon"
+            className="fas fa-dog fa-lg cards__type--icon"
             title="Animales bienvenidos"
           ></i>
         </div>
@@ -98,7 +98,7 @@ const DataCard = (props) => {
         <div className="cards__type">
           <i className="fas fa-leaf fa-lg cards__type--icon" title="Vegano"></i>
           <i
-            class="far fa-times-circle fa-lg cards__type--icon"
+            className="far fa-times-circle fa-lg cards__type--icon"
             title="No acepta animales"
           ></i>
         </div>
@@ -123,7 +123,7 @@ const DataCard = (props) => {
             title="Vegetariano"
           ></i>
           <i
-            class="fas fa-dog fa-lg cards__type--icon"
+            className="fas fa-dog fa-lg cards__type--icon"
             title="Animales bienvenidos"
           ></i>
         </div>
@@ -145,7 +145,7 @@ const DataCard = (props) => {
         <div className="cards__type">
           <i className="fas fa-leaf fa-lg cards__type--icon" title="Vegano"></i>
           <i
-            class="fas fa-dog fa-lg cards__type--icon"
+            className="fas fa-dog fa-lg cards__type--icon"
             title="Animales bienvenidos"
           ></i>
         </div>
@@ -167,7 +167,7 @@ const DataCard = (props) => {
         <div className="cards__type">
           <i className="fas fa-leaf fa-lg cards__type--icon" title="Vegano"></i>
           <i
-            class="far fa-times-circle fa-lg cards__type--icon"
+            className="far fa-times-circle fa-lg cards__type--icon"
             title="No acepta animales"
           ></i>
         </div>
