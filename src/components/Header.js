@@ -9,6 +9,18 @@ const Header = () => {
         <a className="menu__item" href="/">
           Home
         </a>
+        <a className="menu__item" href="/favoritos">
+          Favoritos
+        </a>
+        <a className="menu__item" href="/nosotras">
+          About us
+        </a>
+        <a className="menu__item" href="/sugerencias">
+          Sugerencias
+        </a>
+        <a className="menu__item" href="/contacto">
+          Contacto
+        </a>
       </Menu>
       <div className="hero"></div>;
     </>
