@@ -1,5 +1,6 @@
 import { slide as Menu } from "react-burger-menu";
 import HorizontalMenu from "./HorizontalMenu";
+import SearchBar from "./SearchBar";
 const Header = () => {
   return (
     <>
@@ -22,7 +23,10 @@ const Header = () => {
           Contacto
         </a>
       </Menu>
-      <div className="hero"></div>;
+      <div className="hero">
+        <SearchBar />
+      </div>
+      ;
     </>
   );
 };

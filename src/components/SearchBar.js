@@ -2,7 +2,7 @@ const SearchBar = () => {
   return (
     <>
       <section className="search">
-        <h3>Tu pones el hambre, nosotros el sitio</h3>
+        <h3 className="search__text">Tu pones el hambre, nosotros el sitio</h3>
         <form>
           <label for="searchBox">
             <input

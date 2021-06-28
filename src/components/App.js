@@ -15,7 +15,7 @@ function App() {
   return (
     <>
       <Header />
-      <SearchBar /> {/*Podría ser parte del Main?*/}
+      {/*<SearchBar /> Podría ser parte del Main?*/}
       <Switch>
         {/*HOME*/}
         <Route exact path="/">
