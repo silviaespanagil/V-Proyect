@@ -27,7 +27,7 @@ function App() {
         <Route path="/favoritos">
           <FavPlaces />
         </Route>
-        <Route path="/recomendacion">
+        <Route path="/sugerencias">
           <FormAddPlace />
         </Route>
       </Switch>

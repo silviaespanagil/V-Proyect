@@ -7,15 +7,22 @@ const HorizontalMenu = () => {
       <Link to="/">
         <img className="hMenu__img" src={noLogo} alt="logo" />
       </Link>
+
       <ul className="hMenu__ul">
-        <Link to="/nosotras">
-          <li className="hMenu__item">Sobre nosotras</li>
+        <Link to="/">
+          <li className="hMenu__item">Home</li>
         </Link>
         <Link to="/favoritos">
-          <li className="hMenu__item">Mis favoritos</li>
+          <li className="hMenu__item">Favoritos</li>
         </Link>
-        <Link to="/recomendacion">
-          <li className="hMenu__item">Agregar un sitio</li>
+        <Link to="/nosotras">
+          <li className="hMenu__item">About us</li>
+        </Link>
+        <Link to="/sugerencias">
+          <li className="hMenu__item">Sugerencias</li>
+        </Link>
+        <Link to="/contacto">
+          <li className="hMenu__item">Contacto</li>
         </Link>
       </ul>
     </header>
