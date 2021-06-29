@@ -3,7 +3,7 @@ import { Route, Switch } from "react-router-dom";
 //components
 import Header from "./Header";
 import Footer from "./Footer";
-import Main from "./Main";
+import Home from "./Home";
 import AboutUs from "./AboutUs";
 import FavPlaces from "./FavPlaces";
 import FormAddPlace from "./FormAddPlace";
@@ -18,7 +18,9 @@ function App() {
       <Switch>
         {/*HOME*/}
         <Route exact path="/">
-          <Main />
+          <main>
+            <Home />
+          </main>
         </Route>
         <Route path="/nosotras">
           <AboutUs />

@@ -1,19 +1,34 @@
-.cardList {
-  width: 100%;
+.home {
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  align-items: center;
-  @include tablet() {
-    flex-direction: row;
-    flex-wrap: wrap;
+  &__recomendationTitle {
+    margin: 15px 0;
   }
 }
 
 .listResults {
-  text-align: center;
-  margin: 10px 0;
+  //text-align: center;
+  margin: 15px 0;
+  @include tablet() {
+    // align-self: flex-start;
+    margin: 20px 40px;
+  }
+}
+
+.cardList {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: url(../../images/bg-page-1.png);
+  background-position: right;
+  background-repeat: no-repeat;
+  @include tablet() {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
 }
 .cards {
   border: 4px solid $colorBlue;

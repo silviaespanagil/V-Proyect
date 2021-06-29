@@ -1,10 +1,12 @@
 //COMPONENTES
 import DataCard from "./DataCard.js";
 
-const DataList = () => {
+const DataListReco = () => {
   return (
     <>
-      <h2 className="listResults">Tus resultados</h2>
+      <h2 className="home__recomendationTitle">
+        Restaurantes recomendados para ti
+      </h2>
       <div className="cardList">
         <DataCard />
       </div>
@@ -12,4 +14,4 @@ const DataList = () => {
   );
 };
 
-export default DataList;
+export default DataListReco;
