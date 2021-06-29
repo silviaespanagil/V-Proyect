@@ -3,7 +3,6 @@ import { Route, Switch } from "react-router-dom";
 //components
 import Header from "./Header";
 import Footer from "./Footer";
-import SearchBar from "./SearchBar";
 import Main from "./Main";
 import AboutUs from "./AboutUs";
 import FavPlaces from "./FavPlaces";

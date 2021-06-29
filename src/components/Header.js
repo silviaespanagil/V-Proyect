@@ -4,7 +4,7 @@ import SearchBar from "./SearchBar";
 const Header = () => {
   return (
     <>
-      <div className="warning">Esto es una versión beta</div>;
+      <div className="warning">Esto es una versión beta</div>
       <HorizontalMenu />
       <Menu width={280}>
         <a className="menu__item" href="/">
