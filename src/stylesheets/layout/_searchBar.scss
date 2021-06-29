@@ -5,6 +5,10 @@
   &__text {
     padding-bottom: 25px;
     font-size: 1.5rem;
+    @include tablet() {
+      padding-bottom: 45px;
+      font-size: 1.8rem;
+    }
   }
   &__box {
     width: 375px;
@@ -12,7 +16,10 @@
     border-radius: 45px;
     padding: 15px;
     font-size: 0.9rem;
+    border: 1px solid $colorBrightGreen;
     @include tablet() {
+      width: 500px;
+      height: 50px;
     }
   }
   &__button {
@@ -21,8 +28,12 @@
     border-radius: 45px;
     width: 75px;
     position: relative;
-    right: 70px;
+    right: 35px;
     color: $colorWhite;
     letter-spacing: 0.5px;
+    @include tablet() {
+      width: 100px;
+      height: 50px;
+    }
   }
 }

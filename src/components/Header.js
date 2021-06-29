@@ -5,7 +5,6 @@ const Header = () => {
   return (
     <>
       <div className="warning">Esto es una versión beta</div>
-      <HorizontalMenu />
       <Menu width={280}>
         <a className="menu__item" href="/">
           Home
@@ -24,9 +23,9 @@ const Header = () => {
         </a>
       </Menu>
       <div className="hero">
+        <HorizontalMenu />
         <SearchBar />
       </div>
-      ;
     </>
   );
 };
